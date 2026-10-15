@@ -2,7 +2,7 @@
 // facility list open instantly and offline (NFR-04). API calls and map tiles are
 // NOT cached here: the app caches readings in localStorage with their age, and
 // OSM tiles stay in the browser's own HTTP cache (tile usage policy, §9.4).
-const VERSION = 'bscv-v0.1.1';
+const VERSION = 'bscv-v0.1.2';
 const SHELL = [
   './', 'index.html', 'manifest.json',
   'css/app.css',
