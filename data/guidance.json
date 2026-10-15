@@ -1,0 +1,73 @@
+{
+  "source": {
+    "title": "EPA Air Quality and Outdoor Activity Guidance for Schools (Air Quality Flag Program)",
+    "documentNumber": "EPA-456/F-14-003",
+    "url": "https://www.airnow.gov/publications/air-quality-and-outdoor-activity-guidance-for-schools/",
+    "mirror": "https://stacks.cdc.gov/view/cdc/108685/cdc_108685_DS1.pdf",
+    "retrieved": "",
+    "verbatim": false,
+    "note": "VERIFY BEFORE RELEASE (spec §19 item 1): the 'sensitive' and 'all' strings below are a close paraphrase from the spec (§7.2). Open the PDF, paste EPA's current wording verbatim, set verbatim=true and fill in retrieved (ISO date)."
+  },
+  "categories": [
+    { "id": "good", "min": 0, "max": 50, "name": "Good", "flagWord": "Green", "colour": "#00E400", "ink": "#0B2E13",
+      "sensitive": "Great day to be active outside.",
+      "all": "Great day to be active outside." },
+    { "id": "moderate", "min": 51, "max": 100, "name": "Moderate", "flagWord": "Yellow", "colour": "#FFFF00", "ink": "#3D3A00",
+      "sensitive": "Good day to be active outside. Unusually sensitive students: watch for symptoms and take it easier if they appear.",
+      "all": "Good day to be active outside." },
+    { "id": "usg", "min": 101, "max": 150, "name": "Unhealthy for Sensitive Groups", "flagWord": "Orange", "colour": "#FF7E00", "ink": "#3A1D00",
+      "sensitive": "Make outdoor activities shorter and less intense; take more breaks; watch for symptoms; keep quick-relief medicine handy; follow the asthma action plan.",
+      "all": "OK to be active outside, especially for short activities such as recess and PE. For longer activities such as practice, take more breaks and do less intense activities; watch for symptoms." },
+    { "id": "unhealthy", "min": 151, "max": 200, "name": "Unhealthy", "flagWord": "Red", "colour": "#FF0000", "ink": "#FFFFFF",
+      "sensitive": "Move activities indoors or reschedule. If outside at all, keep it short and light; follow the action plan.",
+      "all": "Move longer or more intense activities indoors or reschedule. For short activities, choose less intense options and take more breaks; watch for symptoms." },
+    { "id": "very", "min": 201, "max": 300, "name": "Very Unhealthy", "flagWord": "Purple", "colour": "#8F3F97", "ink": "#FFFFFF",
+      "sensitive": "Stay indoors; move all activities indoors or reschedule.",
+      "all": "Move all activities indoors or reschedule." },
+    { "id": "hazardous", "min": 301, "max": 999, "name": "Hazardous", "flagWord": "Maroon", "colour": "#7E0023", "ink": "#FFFFFF",
+      "sensitive": "Stay indoors; keep activity light even inside.",
+      "all": "Move all activities indoors or reschedule; keep activity light." }
+  ],
+  "personas": {
+    "asthma":  { "label": "Student with asthma", "short": "Asthma",   "group": "sensitive", "exertion": false,
+                 "blurb": "A child or teen with asthma or another lung condition, or their parent. Uses the EPA 'sensitive students' guidance." },
+    "athlete": { "label": "Student athlete",     "short": "Athlete",  "group": "all",       "exertion": true,
+                 "blurb": "Any child or teen doing long or intense outdoor activity (practice, PE, games). Uses the 'all students' guidance for longer, more intense activity." },
+    "general": { "label": "Everyone else",       "short": "Everyone", "group": "all",       "exertion": false,
+                 "blurb": "Adults and children without a lung condition doing ordinary activity. Uses the 'all students' guidance as written." }
+  },
+  "levelTable": {
+    "_comment": "decision level per category, in persona order [asthma, athlete, general]. 0 go · 1 go with care · 2 shorten & lighten · 3 indoors or reschedule · 4 stay indoors (spec §11.1 step 4)",
+    "personaOrder": ["asthma", "athlete", "general"],
+    "good":      [0, 0, 0],
+    "moderate":  [1, 1, 0],
+    "usg":       [2, 2, 1],
+    "unhealthy": [3, 3, 2],
+    "very":      [4, 4, 3],
+    "hazardous": [4, 4, 4]
+  },
+  "levels": [
+    { "level": 0, "name": "Good to go",          "decision": "Good to go — great day to be active outside.",                                   "safer": null },
+    { "level": 1, "name": "Go with care",        "decision": "OK to be outside — watch for symptoms and take it easier if they show.",         "safer": "If symptoms start, slow down and rest in the shade." },
+    { "level": 2, "name": "Shorten and lighten", "decision": "Shorten it and go easier — more breaks, less intensity, medicine handy.",        "safer": "Swap a long practice for skills drills, or move the hardest part indoors." },
+    { "level": 3, "name": "Indoors or reschedule","decision": "Move it indoors or reschedule — outside only if short and light.",               "safer": "Indoors with filtered air — nearest: {facility}." },
+    { "level": 4, "name": "Stay indoors",        "decision": "Stay indoors today.",                                                             "safer": "Indoors with filtered air — nearest: {facility}." }
+  ],
+  "stale": {
+    "name": "Stale reading",
+    "colour": "#8E99AB",
+    "ink": "#10233F",
+    "decision": "Check again — the last reading is {ageH} hours old.",
+    "safer": "Use caution; open airnow.gov for the official reading.",
+    "missing": "Check again — no reading is available right now."
+  },
+  "lookahead": " … but it gets worse by {hour}; plan to be done by then.",
+  "pollutantNames": {
+    "pm2_5": "smoke / fine particles",
+    "pm10": "dust / coarse particles",
+    "o3": "ozone",
+    "no2": "nitrogen dioxide (traffic)"
+  },
+  "disclaimer": "BreatheSCV gives general information based on EPA guidance. It is not medical advice. If you are having trouble breathing, get help right away.",
+  "dataCaveat": "Air-quality values are model estimates from Open-Meteo (CAMS and other model data), not the EPA's official monitor readings. For the official value, open airnow.gov."
+}

@@ -1,0 +1,18 @@
+name,type,address,city,zip,lat,lon,hours_note,source_url,verified_on,notes
+Valencia Library,library,23743 W Valencia Blvd,Santa Clarita,91355,34.4155,-118.5560,Check branch page for hours,https://lacountylibrary.org/valencia-library/,,CANDIDATE — verify address/coords/hours by official page or phone before shipping
+Old Town Newhall Library,library,24500 Main St,Santa Clarita,91321,34.3787,-118.5285,Check branch page for hours,https://lacountylibrary.org/old-town-newhall-library/,,CANDIDATE — verify
+Canyon Country Jo Anne Darcy Library,library,18601 Soledad Canyon Rd,Santa Clarita,91351,34.4232,-118.4520,Check branch page for hours,https://lacountylibrary.org/canyon-country-library/,,CANDIDATE — verify
+Castaic Library,library,27971 Sloan Canyon Rd,Castaic,91384,34.4875,-118.6225,Check branch page for hours,https://lacountylibrary.org/castaic-library/,,CANDIDATE — verify
+Acton Agua Dulce Library,library,33792 Crown Valley Rd,Acton,93510,34.4705,-118.1965,Check branch page for hours,https://lacountylibrary.org/acton-agua-dulce-library/,,CANDIDATE — verify
+Stevenson Ranch Library,library,25950 The Old Rd,Stevenson Ranch,91381,34.3900,-118.5880,Check branch page for hours,https://lacountylibrary.org/stevenson-ranch-library/,,CANDIDATE — verify
+Palmdale City Library,library,700 E Palmdale Blvd,Palmdale,93550,34.5795,-118.1150,Check city page for hours,https://www.cityofpalmdaleca.gov/library,,CANDIDATE — verify
+Lancaster Library,library,601 W Lancaster Blvd,Lancaster,93534,34.6975,-118.1370,Check branch page for hours,https://lacountylibrary.org/lancaster-library/,,CANDIDATE — verify
+Lake Los Angeles Library,library,16921 E Ave O,Lake Los Angeles,93591,34.5840,-117.8260,Check branch page for hours,https://lacountylibrary.org/lake-los-angeles-library/,,CANDIDATE — verify
+Littlerock Library,library,35119 80th St E,Littlerock,93543,34.5215,-117.9765,Check branch page for hours,https://lacountylibrary.org/littlerock-library/,,CANDIDATE — verify
+Santa Clarita Sports Complex,indoor_rec,20880 Centre Pointe Pkwy,Santa Clarita,91350,34.4165,-118.4985,Gym hours vary — check city page,https://santaclarita.gov/,,CANDIDATE — verify
+Newhall Community Center,community_center,22421 Market St,Santa Clarita,91321,34.3820,-118.5300,Check city page for hours,https://santaclarita.gov/,,CANDIDATE — verify
+Canyon Country Community Center,community_center,18410 Sierra Hwy,Santa Clarita,91351,34.4225,-118.4515,Check city page for hours,https://santaclarita.gov/,,CANDIDATE — verify
+Palmdale Chimbole Cultural Center,community_center,38350 Sierra Hwy,Palmdale,93550,34.5790,-118.1145,Check city page for hours,https://www.cityofpalmdaleca.gov/,,CANDIDATE — verify
+Lancaster Senior Center,senior_center,777 W Jackman St,Lancaster,93534,34.7005,-118.1390,Check city page for hours,https://www.cityoflancasterca.gov/,,CANDIDATE — verify
+Example rejected row (bad coordinate),cooling_center,1 Test St,Palmdale,93550,134.5,-118.1,,https://example.org/,2026-10-15,This row exists so AC-13 can be demonstrated — delete it
+Example rejected row (no date),cooling_center,2 Test St,Palmdale,93550,34.5,-118.1,,https://example.org/,,This row exists so AC-13 can be demonstrated — delete it

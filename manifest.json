@@ -1,0 +1,16 @@
+{
+  "name": "BreatheSCV",
+  "short_name": "BreatheSCV",
+  "description": "Is it OK to be active outside right now? EPA Air Quality Flag Program decisions for CA-27.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F3F6FA",
+  "theme_color": "#1F7A8C",
+  "lang": "en-US",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

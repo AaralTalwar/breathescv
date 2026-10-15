@@ -1,0 +1,13 @@
+{
+  "name": "breathescv",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Is it OK to be active outside right now? EPA Air Quality Flag Program decisions for CA-27.",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "serve": "python3 -m http.server 8080",
+    "facilities": "python3 tools/build_facilities.py data/facilities.csv data/facilities.json"
+  },
+  "license": "MIT"
+}

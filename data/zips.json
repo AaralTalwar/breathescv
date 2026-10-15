@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "source": "ZIP centroids from api.zippopotam.us (GeoNames), retrieved 2026-10-15; starting ZIP list from spec §7.5.",
+    "verify": "Spec §19 item 2: check this list against the CA-27 district map (whitesides.house.gov / wedrawthelinesca.org) before shipping. Candidates not yet included: 93532 Lake Hughes, 93544 Llano, 93553 Pearblossom, 93563 Valyermo, 93523 Edwards, 93560 Rosamond (Kern Co. — likely out).",
+    "district": "CA-27"
+  },
+  "91321": { "lat": 34.3795, "lon": -118.5230, "label": "Newhall",          "inDistrict": true },
+  "91350": { "lat": 34.4336, "lon": -118.5007, "label": "Saugus",           "inDistrict": true },
+  "91351": { "lat": 34.4262, "lon": -118.4490, "label": "Canyon Country",   "inDistrict": true },
+  "91354": { "lat": 34.4466, "lon": -118.5374, "label": "Valencia",         "inDistrict": true },
+  "91355": { "lat": 34.3985, "lon": -118.5535, "label": "Valencia",         "inDistrict": true },
+  "91381": { "lat": 34.3775, "lon": -118.6131, "label": "Stevenson Ranch",  "inDistrict": true },
+  "91384": { "lat": 34.4827, "lon": -118.6254, "label": "Castaic",          "inDistrict": true },
+  "91387": { "lat": 34.4132, "lon": -118.4260, "label": "Canyon Country",   "inDistrict": true },
+  "91390": { "lat": 34.4684, "lon": -118.5261, "label": "Agua Dulce",       "inDistrict": true, "_note": "geocoder labels this 'Santa Clarita'; centroid looks west of Agua Dulce — hand-check" },
+  "93510": { "lat": 34.4835, "lon": -118.1959, "label": "Acton",            "inDistrict": true },
+  "93534": { "lat": 34.6909, "lon": -118.1491, "label": "Lancaster",        "inDistrict": true },
+  "93535": { "lat": 34.7131, "lon": -117.8783, "label": "Lancaster (east)", "inDistrict": true },
+  "93536": { "lat": 34.7471, "lon": -118.3687, "label": "Lancaster (west)", "inDistrict": true },
+  "93543": { "lat": 34.4891, "lon": -117.9708, "label": "Littlerock",       "inDistrict": true },
+  "93550": { "lat": 34.4133, "lon": -118.0917, "label": "Palmdale",         "inDistrict": true },
+  "93551": { "lat": 34.6017, "lon": -118.2310, "label": "Palmdale (west)",  "inDistrict": true },
+  "93552": { "lat": 34.5715, "lon": -118.0231, "label": "Palmdale (east)",  "inDistrict": true },
+  "93591": { "lat": 34.6019, "lon": -117.8123, "label": "Lake Los Angeles", "inDistrict": true }
+}
