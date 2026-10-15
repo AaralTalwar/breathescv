@@ -2,7 +2,7 @@
 
 **Is it OK to be active outside right now?** One flag, one decision, the reason, and the next safer option — using the EPA Air Quality Flag Program rules schools follow, for the air where you actually are in California's 27th Congressional District (Santa Clarita Valley and the Antelope Valley).
 
-Live app: _(GitHub Pages link goes here)_ · 2026 Congressional App Challenge, CA-27.
+Live app: [_(GitHub Pages link goes here)_](https://aaraltalwar.github.io/breathescv/) · 2026 Congressional App Challenge, CA-27.
 
 ## What the flag means and where the rules come from
 - The flag colour is the US Air Quality Index category (EPA): Green 0–50 · Yellow 51–100 · Orange 101–150 · Red 151–200 · Purple 201–300 · Maroon 301+. The category name and AQI number are always shown as text, never colour alone.
